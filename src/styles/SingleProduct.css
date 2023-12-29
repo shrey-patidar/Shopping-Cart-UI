@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap");
+
+.single-product-main {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.left-div {
+  height: 75vh;
+  width: 22vw;
+  /* padding: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px #ccc solid;
+  border-right: none;
+  box-shadow: 0px 7px #ccc;
+}
+
+.left-div img {
+  height: 75%;
+  width: 100%;
+  padding: 0.5rem;
+  border-right: 3px #ccc solid;
+
+  object-fit: fill;
+}
+
+.extra {
+  border-right: 3px #ccc solid;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  font-family: "Advent Pro", sans-serif;
+}
+
+.extra p {
+  font-size: 16px;
+}
+
+.right-div {
+  height: 75vh;
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-bottom: 1px #ccc solid;
+  border-right: 1px #ccc solid;
+  border-top: 1px #ccc solid;
+  box-shadow: 6px 7px #ccc;
+}
+
+.right-div div {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.p1 {
+  font-size: 42px;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.p2 {
+  font-size: 23px;
+  height: 250px;
+  font-family: "Caveat", cursive;
+}
+
+.p3 {
+  font-size: 25px;
+}
+
+.right-div button {
+  background-color: #f8f4ea;
+  font-size: medium;
+  width: 83%;
+  letter-spacing: 1px;
+  margin: 1rem;
+}
+
+.right-div button:hover {
+  cursor: pointer;
+  font-weight: 800;
+  /* background-color: #e1d7c6; */
+  background-color: #996633;
+}

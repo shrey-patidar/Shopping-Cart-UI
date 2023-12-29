@@ -1,0 +1,13 @@
+.header {
+  padding: 0 0;
+  height: 5.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: #f8f4ea;
+}
+.logo {
+  height: 4rem;
+  padding-left: 1.5rem;
+}

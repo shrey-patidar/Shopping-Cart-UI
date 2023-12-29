@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.main-cart-div {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 76vh;
+  margin: 2rem;
+}
+
+.header-div {
+  padding: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  width: 80%;
+  /* height: 40px; */
+  /* margin-bottom: 1rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px #ccc solid;
+}
+
+.item-list-div {
+  padding: 0.5rem;
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: scroll;
+  /* background-color: whitesmoke; */
+  /* background-color: #f8f4ea; */
+}
+
+.item-div {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem;
+  border-bottom: 1px #ccc solid;
+  margin: 0.1rem;
+}
+
+.item-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 0.3rem;
+}
+
+.item-info {
+  width: 60%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.item-update {
+  width: 20%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item-quantity input[type="number"] {
+  width: 40px;
+  font-size: 16px;
+}
+
+/* .item-quantity input[type="number"]:hover::-webkit-inner-spin-button {
+  width: 14px;
+  height: 30px;
+} */
+
+.footer-div {
+  /* margin-top: 1rem; */
+  padding: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  width: 80%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-top: 1px #ccc solid;
+}
+
+.place-order-btn {
+  background-color: #f8f4ea;
+  font-size: medium;
+  width: 130px;
+  margin: 0;
+}
+
+.place-order-btn:hover {
+  cursor: pointer;
+  font-weight: 700;
+  /* background-color: #e1d7c6; */
+  background-color: #996633;
+}
+
+.item-remove {
+  width: 30px;
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+}
+
+.item-remove:hover {
+  background-color: rgb(177, 35, 35);
+}

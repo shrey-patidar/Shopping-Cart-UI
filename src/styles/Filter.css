@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.filters {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-left: 1.75rem;
+  background-color: white;
+  width: 80%;
+}
+
+.filters label {
+  margin-top: 10px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.filters input[type="range"] {
+  width: 100%;
+}
+
+.filters select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filters input[type="text"] {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filterclear-btn {
+  background-color: #996633; /* blue */
+  color: #ffffff; /* white */
+  font-size: 12px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.filterclear-btn:hover {
+  background-color: #804d00; /* dark blue */
+  font-weight: 600;
+}
+
+.addproduct-btn {
+  background-color: #7b8fa1; /* blue */
+  color: #ffffff; /* white */
+  font-size: 14px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.addproduct-btn:hover {
+  background-color: #567189; /* dark blue */
+  font-weight: 700;
+}

@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.product-section {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.product-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.product-tile img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  transition: width 0.5s, height 0.5s;
+}
+
+.product-tile img:hover {
+  cursor: pointer;
+  width: 208px;
+  height: 208px;
+}
+
+.product-tile h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.product-tile p {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.add-to-cart-btn {
+  background-color: #996633; /* blue */
+  color: #ffffff; /* white */
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #804d00; /* dark blue */
+}
+
+.add-to-cart-btn:focus {
+  background-color: #6fa4e0;
+}
+
+.edit-product-btn {
+  /* background-color: #996633; */
+  /* color: #ffffff; */
+  color: black;
+  font-size: 13px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-product-btn:hover {
+  background-color: #996633;
+  /* background-color: #804d00;  */
+}
+
+.delete-product-btn {
+  /* background-color: #996633; */
+  /* background-color: #ff4a4a; */
+  background-color: #e64848;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-product-btn:hover {
+  background-color: rgb(177, 35, 35);
+  color: white;
+}
+
+.popup-content {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  width: 50%;
+  padding: 5px;
+  height: 40vh;
+}
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role="tooltip"].popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup="tooltip"].popup-overlay {
+  background: transparent;
+}

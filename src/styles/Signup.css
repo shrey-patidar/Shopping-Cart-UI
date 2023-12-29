@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* html {
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  color: #fff;
+} */
+
+/* body {
+  min-height: 100vh;
+  background-color: dodgerblue;
+} */
+
+/* .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem 0.5rem;
+} */
+
+.success {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+.signup-div {
+  width: 100%;
+  max-width: 380px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  background-color: #e1d7c6;
+}
+
+.signup-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+/* a,
+a:visited {
+  color: #fff;
+} */
+
+.signup-form input[type="text"],
+input[type="password"],
+input[type="email"],
+button,
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.signup-form label,
+button {
+  margin-top: 1rem;
+}
+
+.signup-form button {
+  padding: 0.5rem;
+  /* background-color: #f8f4ea; */
+  background-color: #6fa4e0;
+}
+
+.signup-form button:hover {
+  font-weight: bolder;
+  background-color: white;
+  cursor: pointer;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  /* background: #000; */
+  /* color: #fff; */
+  background-color: #f8f4ea;
+  color: black;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.already-user {
+  text-align: center;
+  font-weight: 100;
+  font-size: small;
+}
+
+.login-link {
+  color: black;
+  font-weight: 500;
+}
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}

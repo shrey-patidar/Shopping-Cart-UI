@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.main-login-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+.login-div {
+  width: 100%;
+  max-width: 380px;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  background-color: #e1d7c6;
+}
+
+.login-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+.login-form input[type="text"],
+input[type="password"],
+input[type="email"],
+button,
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.login-form label,
+button {
+  margin-top: 1rem;
+}
+
+.login-form button {
+  padding: 0.5rem;
+  /* background-color: #f8f4ea; */
+  background-color: #6fa4e0;
+}
+
+.login-form button:hover {
+  font-weight: bolder;
+  background-color: white;
+  cursor: pointer;
+}
+
+.new-user {
+  text-align: center;
+  font-weight: 100;
+  font-size: small;
+}
+
+.signup-link {
+  color: black;
+  font-weight: 500;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
